@@ -1,0 +1,32 @@
+body, html {
+height: 100%;
+}
+.mainBg{
+position: fixed;
+width: 100%;
+background-image: url(../images/bg.png);
+background-color: #202427;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        height: 100vh;
+        transition: height 0.5s ease-in-out;
+    }
+#mainInput{
+border: none!important;
+background-color: #202427;
+color: white;
+outline: none;
+}
+.mainBtn{
+text-transform: capitalize;
+}
