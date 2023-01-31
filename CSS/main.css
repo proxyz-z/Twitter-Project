@@ -1,5 +1,7 @@
-body, html {
-height: 100%;
+*{
+    padding: 0;
+    margin: 0;
+
 }
 .mainBg{
 position: fixed;
@@ -7,8 +9,8 @@ width: 100%;
 background-image: url(../images/bg.png);
 background-color: #202427;
 background-size: contain;
-background-repeat: no-repeat;
 background-position: center;
+background-repeat: no-repeat;
 height: 100%;
 
     }
@@ -20,7 +22,11 @@ height: 100%;
         align-items: center;
         height: 100vh;
         transition: height 0.5s ease-in-out;
-    }
+        -webkit-transition: height 0.5s ease-in-out;
+        -moz-transition: height 0.5s ease-in-out;
+        -ms-transition: height 0.5s ease-in-out;
+        -o-transition: height 0.5s ease-in-out;
+}
 #mainInput{
 border: none!important;
 background-color: #202427;
